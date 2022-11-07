@@ -3,6 +3,8 @@
 ## I. Introduction
 We present here a Python application for segmentation Quality-Control on DENSE CMR images. This app is made to be used in conjunction with DENSEanalysis ([https://github.com/denseanalysis/denseanalysis](https://github.com/denseanalysis/denseanalysis)).
 
+This app is primarily meant to be used as a pre-processing tool to clean a supervised segmentation dataset, for AI training purposes.
+
 Input files for this app should be DENSEanalysis workspaces (generally ```.dns``` files). These files contain DICOM sequences for cine DENSE CMR, of potentially multiple slices/acquisitions. If ROI information is available from the workspaces, they can be loaded on the app and visually assessed. This tool could be extended to support more input format.
 
 By going through an entire dataset, you can validate or update ROI entries, to match them with their corresponding DICOM images, validate the slice location, and discard them if they don't pass quality-control, or if the associated images are not of sufficient quality.
@@ -77,8 +79,3 @@ If you have used this app for your research or it has influenced your work, we a
 > Barbaroux, H. (2022). DENSE CMR SegQC. Retrieved from [https://github.com/Hbarbaroux/DENSE-CMR-SegQC](https://github.com/Hbarbaroux/DENSE-CMR-SegQC)
 
 If you have any questions, problems, or if you wish to contribute, you can send an email to hugo.barbaroux@kcl.ac.uk ([Hugo Barbaroux](https://github.com/Hbarbaroux)). Feel free to submit a pull request as well!
-
-
-
-
-
