@@ -76,7 +76,7 @@ After having process all your ```.dns``` files, you can retrieve the ROIs from t
 If you have used this app for your research or it has influenced your work, we ask that you include the following relevant citations in your work:
 > Barbaroux, H. (2022). DENSE CMR SegQC. Retrieved from [https://github.com/Hbarbaroux/DENSE-CMR-SegQC](https://github.com/Hbarbaroux/DENSE-CMR-SegQC)
 
-If you have any questions, problems, or if you wish to contribute, you can send an email to hugo.barbaroux@free.fr ([Hugo Barbaroux](https://github.com/Hbarbaroux)). Feel free to submit a pull request as well!
+If you have any questions, problems, or if you wish to contribute, you can send an email to hugo.barbaroux@kcl.ac.uk ([Hugo Barbaroux](https://github.com/Hbarbaroux)). Feel free to submit a pull request as well!
 
 
 
